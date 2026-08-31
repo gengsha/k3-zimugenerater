@@ -1,0 +1,32 @@
+{
+  "appId": "com.k3.subtitle",
+  "productName": "K3 Subtitle",
+  "directories": {
+    "output": "../release/linux"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "../backend/app",
+      "to": "backend/app"
+    },
+    {
+      "from": "../backend/run.py",
+      "to": "backend/run.py"
+    },
+    {
+      "from": "../backend/requirements.txt",
+      "to": "backend/requirements.txt"
+    }
+  ],
+  "linux": {
+    "target": [
+      "tar.gz"
+    ],
+    "category": "AudioVideo",
+    "artifactName": "K3-Subtitle-${version}-x64-linux.tar.gz"
+  }
+}
