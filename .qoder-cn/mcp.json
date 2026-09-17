@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"k3-subtitle": {
+			"command": "E:\\projects\\k3-zimugenerater\\.venv\\Scripts\\python.exe",
+			"args": ["E:\\projects\\k3-zimugenerater\\backend\\mcp_server.py"]
+		}
+	}
+}
